@@ -52,7 +52,7 @@ function setup() {
     myCg.pixelDensity (1);
     myCg.background (0, 0, 255);
 
-    setInterval(saveImage, 50000)
+    setInterval(saveImage, 100000)
 }
 
 function saveImage() {
